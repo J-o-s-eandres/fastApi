@@ -1,6 +1,11 @@
 from fastapi import FastAPI
 from routes.user import user 
-app = FastAPI()
+app = FastAPI(
+    title="REST API with FastAPI and MongoDB",
+    description="This is a simple REST API using fastapi and mongodb ",
+    version="0.0.1"
+)
+
 
 
 
