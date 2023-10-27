@@ -70,4 +70,4 @@ pip install -r requirements.txt
 You can run the API with the following command:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app:app --reload
